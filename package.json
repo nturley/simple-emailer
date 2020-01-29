@@ -1,0 +1,23 @@
+{
+  "name": "simple-emailer",
+  "version": "1.0.0",
+  "description": "simple example of an emailer web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nturley/simple-emailer.git"
+  },
+  "author": "Neil Turley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nturley/simple-emailer/issues"
+  },
+  "homepage": "https://github.com/nturley/simple-emailer#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sendgrid": "^5.2.3"
+  }
+}
