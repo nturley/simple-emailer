@@ -26,6 +26,7 @@ app.post('/', (req, res) => {
         console.log(response.body);
         console.log(response.headers);
     });
+    res.send('Thank you');
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
